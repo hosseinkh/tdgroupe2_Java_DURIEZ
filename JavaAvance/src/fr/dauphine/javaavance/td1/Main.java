@@ -75,7 +75,6 @@ public class Main {
 		ls.get(1).contains(p);
 	}
 	
-	//repertoire git hub td01groupe2  tout dans main 
 	
 	
 }
