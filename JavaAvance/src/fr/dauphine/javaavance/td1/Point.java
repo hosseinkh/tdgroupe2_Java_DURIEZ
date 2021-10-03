@@ -4,7 +4,8 @@ public class Point {
 	private double x;
 	private double y;
 	private static int nbPoint=0;
-	public Point() {
+	public Point() { //A mon avis on n'est pas besoin de initialiser le point avec valeur zero zero! Vous pouvez effacer ce constracteur, 
+		//parce que normalement quand on parle d'initializer un point c'est a dire on a des valeurs x et y.
 		new Point(0,0);
 	}
 	public double getx() {
