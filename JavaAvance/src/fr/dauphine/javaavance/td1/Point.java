@@ -1,6 +1,8 @@
 package fr.dauphine.javaavance.td1;
 
 public class Point {
+	/* vous pouvez mettre les attribus comme final private pourquoi?
+	pour devenir immutable*/
 	private double x;
 	private double y;
 	private static int nbPoint=0;
