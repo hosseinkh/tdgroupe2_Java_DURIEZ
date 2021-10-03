@@ -5,7 +5,7 @@ public class Circle {
 	private double r;
 	
 	public Circle(Point c, double r) {
-		this.c=new Point(c.getx(),c.gety());
+		this.c=new Point(c.getx(),c.gety()); 
 		this.r=r;
 	}
 	
@@ -48,7 +48,9 @@ public class Circle {
 		double ecart=Math.sqrt(dx+dy);
 		return ecart<=r;
 	}
-	
+	/*
+	Dans l'exercice il demande le signateur containes(Point p, Circle... circles)
+	*/
 	public boolean contains(Point p, List<?extends Circle> Circles){
 		boolean ret=false;
 		for( Circle c2 : Circles) {
