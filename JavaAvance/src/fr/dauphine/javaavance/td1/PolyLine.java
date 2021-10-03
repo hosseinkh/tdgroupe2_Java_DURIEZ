@@ -12,7 +12,7 @@ public class PolyLine {
 	}
 	
 	public void add(Point p) {
-		if(nbpoint<taille){
+		if(nbpoint<taille){ // On peut lever une exception si le list est plein
 		points.add(p);
 		nbpoint++;
 		}
@@ -20,7 +20,7 @@ public class PolyLine {
 			System.out.println("poltline pleine");
 		}
 	}
-	public void add() {
+	public void add() { // C'est pourquoi?
 		if(nbpoint<taille) {
 		points.add(null);
 		}
